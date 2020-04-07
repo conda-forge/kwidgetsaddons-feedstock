@@ -1,5 +1,5 @@
 {% set name = "kwidgetsaddons" %}
-{% set version = "5.67.0" %}
+{% set version = "5.68.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kwidgetsaddons-{{ version }}.tar.xz
-  sha256: 87f6287d08e419f24f7d120ec2e87cd2fb8788c38eacd62bb5b2eaf7bf4d8404
+  sha256: b4ff96b4ec6365e5f9e4da5e651da99be491799a4e6cfd982d0838dda39844ac
 
 build:
   number: 0
@@ -42,7 +42,7 @@ about:
   license: GPL-v2
   license_family: GPL
   license_file: COPYING
-  summary: 'Large set of desktop widgets'
+  summary: Large set of desktop widgets
   description: |
     This repository contains add-on widgets and classes for applications that
     use the Qt Widgets module. If you are porting applications from KDE Platform 4
