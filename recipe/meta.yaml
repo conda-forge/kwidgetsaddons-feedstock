@@ -1,5 +1,5 @@
 {% set name = "kwidgetsaddons" %}
-{% set version = "5.68.0" %}
+{% set version = "5.69.0" %}
 {% set major_minor = ".".join(version.split(".")[:2]) %}
 
 package:
@@ -8,7 +8,7 @@ package:
 
 source:
   url: https://download.kde.org/stable/frameworks/{{ major_minor }}/kwidgetsaddons-{{ version }}.tar.xz
-  sha256: b4ff96b4ec6365e5f9e4da5e651da99be491799a4e6cfd982d0838dda39844ac
+  sha256: 5fcc39eb17d832a14e8c2fe98ff26a300aa5c88013c63bcf8eef0017ca4eaf37
 
 build:
   number: 0
