@@ -40,7 +40,6 @@ test:
 about:
   home: https://api.kde.org/frameworks/kwidgetsaddons/html/index.html
   license: BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LGPL-3.0-or-later AND LicenseRef-KDE-Accepted-LGPL
-  license_family: GPL
   license_file:
     - LICENSES/BSD-3-Clause.txt
     - LICENSES/GPL-2.0-or-later.txt
