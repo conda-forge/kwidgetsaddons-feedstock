@@ -39,9 +39,18 @@ test:
 
 about:
   home: https://api.kde.org/frameworks/kwidgetsaddons/html/index.html
-  license: GPL-v2
+  license: BSD-3-Clause AND GPL-2.0-or-later AND LGPL-2.0-only AND LGPL-2.0-or-later AND LGPL-2.1-only AND LGPL-2.1-or-later AND LGPL-3.0-only AND LGPL-3.0-or-later AND LicenseRef-KDE-Accepted-LGPL
   license_family: GPL
-  license_file: COPYING
+  license_file:
+    - LICENSES/BSD-3-Clause.txt
+    - LICENSES/GPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.0-only.txt
+    - LICENSES/LGPL-2.0-or-later.txt
+    - LICENSES/LGPL-2.1-only.txt
+    - LICENSES/LGPL-2.1-or-later.txt
+    - LICENSES/LGPL-3.0-only.txt
+    - LICENSES/LGPL-3.0-or-later.txt
+    - LICENSES/LicenseRef-KDE-Accepted-LGPL.txt
   summary: Large set of desktop widgets
   description: |
     This repository contains add-on widgets and classes for applications that
